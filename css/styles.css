@@ -216,3 +216,45 @@ a, a:hover {
 .dsmovie-flip-horizontal {
     transform: rotate(180deg);
 }
+
+#dsmovie-card-list-final{
+    padding: 0 10px;
+}
+
+
+.dsmovie-final-container{
+    padding: 80px 80px;
+    max-width: 480px;
+}
+
+.dsmovie-card-final {
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 8px;
+}
+
+.dsmovie-final-description h4 {
+    color: var(--text-gray);
+    font-weight: 700;
+}
+
+.dsmovie-final-description {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.dsmovie-final {
+    width: 100%;
+}
+
+.dsmovie-final-btn-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
